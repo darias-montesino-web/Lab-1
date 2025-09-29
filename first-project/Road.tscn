@@ -1,0 +1,82 @@
+[gd_scene load_steps=2 format=3 uid="uid://baeoa248b2jh7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sp0v7"]
+size = Vector2(1209, 147)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(574.5, 619)
+shape = SubResource("RectangleShape2D_sp0v7")
+debug_color = Color(0, 0, 0, 0.41960785)
+
+[node name="ColorRect" type="ColorRect" parent="CollisionShape2D"]
+offset_left = -585.5
+offset_top = -54.0
+offset_right = -497.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="CollisionShape2D"]
+offset_left = -464.5
+offset_top = -54.0
+offset_right = -376.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="CollisionShape2D"]
+offset_left = -345.5
+offset_top = -54.0
+offset_right = -257.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="CollisionShape2D"]
+offset_left = -231.5
+offset_top = -54.0
+offset_right = -143.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="CollisionShape2D"]
+offset_left = -106.5
+offset_top = -54.0
+offset_right = -18.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="CollisionShape2D"]
+offset_left = 9.5
+offset_top = -54.0
+offset_right = 97.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="CollisionShape2D"]
+offset_left = 127.5
+offset_top = -54.0
+offset_right = 215.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="CollisionShape2D"]
+offset_left = 250.5
+offset_top = -54.0
+offset_right = 338.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="CollisionShape2D"]
+offset_left = 378.5
+offset_top = -54.0
+offset_right = 466.5
+offset_bottom = -40.0
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="CollisionShape2D"]
+offset_left = 514.5
+offset_top = -54.0
+offset_right = 602.5
+offset_bottom = -40.0
+pivot_offset = Vector2(-272, -126)
+color = Color(0.9882353, 0.79607844, 0.07450981, 1)

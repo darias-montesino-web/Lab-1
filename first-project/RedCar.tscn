@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2w65kawuvx0u"]
+
+[ext_resource type="Texture2D" uid="uid://dd88sppe78thb" path="res://Red_Cabriolet_Car_PNG_Clip_Art-3040.png" id="1_raoas"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RedCabrioletCarPngClipArt3040" type="Sprite2D" parent="."]
+position = Vector2(550.99994, 388.99997)
+scale = Vector2(0.10201881, 0.102018826)
+texture = ExtResource("1_raoas")
